@@ -1,0 +1,7 @@
+# temporary files
+*~
+.DS_Store
+
+# jekyll served dir
+_site/
+
