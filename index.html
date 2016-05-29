@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Simple Sidebar - Start Bootstrap Template</title>
+    <title>vmarquet photography</title>
 
     <!-- Bootstrap Core CSS -->
     <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
@@ -21,12 +21,62 @@
     <!-- Custom CSS -->
     <link href="css/custom.css" rel="stylesheet">
 
+    <!-- JS lib to avoid vendor prefixes on CSS properties -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <!-- from https://codepen.io/dudleystorey/pen/yqrhw -->
+    <!-- style must be inlined and not in a stylesheet for prefixfree.js to work -->
+    <style>
+        @font-face {
+            font-family:'Calluna';
+            src:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/callunasansregular-webfont.woff') format('woff');
+        }
+
+        body {
+            min-height: 1000px;
+        }
+
+        #columns {
+            column-width: 320px;
+            column-gap: 15px;
+            width: 90%;
+            max-width: 1100px;
+            margin: 50px auto;
+        }
+
+        div#columns figure {
+            margin: 0 2px 15px;
+            padding: 15px;
+            padding-bottom: 10px;
+            display: inline-block;
+            column-break-inside: avoid;
+            font-family: Calluna, Arial, sans-serif;
+        }
+
+        div#columns figure img {
+            width: 100%;
+            height: auto;
+        }
+
+        div#columns figure figcaption {
+            font-size: 1.5rem;
+            color: #444;
+            line-height: 1.5;
+        }
+
+        @media screen and (max-width: 750px) { 
+            #columns { column-gap: 0px; }
+            #columns figure { width: 100%; }
+        }
+
+    </style>
 
 </head>
 
@@ -35,6 +85,7 @@
     <div id="wrapper">
 
         <!-- Sidebar -->
+        <!-- Categories ideas: Nature, Shapes -->
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <br /><br/ ><br/ ><br />
@@ -89,6 +140,36 @@
                         <h1>Hello</h1>
                         <p>world</p>
                         <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+
+                        <div id="columns">
+
+                            <figure>
+                                <img src="images/1.JPG">
+                                <figcaption>Hello world</figcaption>
+                            </figure>
+                          
+                            <figure>
+                                <img src="images/2.JPG">
+                                <figcaption>test</figcaption>
+                            </figure>   
+                            
+                            <figure>
+                                <img src="images/3.JPG">
+                            </figure>
+                          
+                            <figure>
+                                <img src="images/4.JPG">
+                            </figure>   
+
+                            <figure>
+                                <img src="images/5.JPG">
+                            </figure>
+                          
+                            <figure>
+                                <img src="images/6.JPG">
+                            </figure>  
+
+                        </div><!-- end #columns -->
                     </div>
                 </div>
             </div>
@@ -99,12 +180,10 @@
     <!-- /#wrapper -->
 
     <!-- jQuery -->
-    <!-- <script src="js/jquery.js"></script> -->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous">
     </script>
 
     <!-- Bootstrap Core JavaScript -->
-    <!-- <script src="js/bootstrap.min.js"></script> -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
     <!-- Menu Toggle Script -->
