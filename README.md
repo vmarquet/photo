@@ -10,4 +10,4 @@ Made with:
 * [jekyll](https://jekyllrb.com/) (launch the server with `jekyll serve --watch`)
 * [Bootstrap 3](http://getbootstrap.com/)
     * [simple-sidebar plugin](http://startbootstrap.com/template-overviews/simple-sidebar/)
-
+* [PhotoSwipe.js](http://photoswipe.com)
