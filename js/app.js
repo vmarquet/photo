@@ -11,10 +11,7 @@ favoritesApp.config(['$routeProvider',
   function($routeProvider) {
     $routeProvider.
       when('/', {
-        templateUrl: 'templates/index.html'
-      }).
-      when('/japan', {
-        templateUrl: 'templates/japan.html'
+        templateUrl: 'content/index.html'
       }).
       otherwise({
         redirectTo: '/'
