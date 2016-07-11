@@ -13,6 +13,9 @@ favoritesApp.config(['$routeProvider',
       when('/', {
         templateUrl: 'content/index.html'
       }).
+      when('/contact', {
+        templateUrl: 'content/contact.html'
+      }).
       otherwise({
         redirectTo: '/'
       });
