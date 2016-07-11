@@ -114,7 +114,7 @@ def analyse_folder folder, filename, level
 
         f_out.write "  <figure>\n"
         f_out.write "    <img src='#{file_id_to_url(file.id)}' data-size='#{metadata.width},#{metadata.height}'>\n"
-        f_out.write "    <figcaption>#{filename}</figcaption>\n"
+        f_out.write "    <figcaption>#{filename}</figcaption>\n" if not filename.start_with?("DSC")
         f_out.write "  </figure>\n"
       end
 
