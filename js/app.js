@@ -1,13 +1,13 @@
 /**
  * Our angular module.
  */
-var favoritesApp = angular.module('portfolioApp', ['ngRoute']);
+var portfolioApp = angular.module('portfolioApp', ['ngRoute']);
 
 
 /**
  * Routing configuration for our module.
  */
-favoritesApp.config(['$routeProvider',
+angular.module('portfolioApp').config(['$routeProvider',
   function($routeProvider) {
     $routeProvider.
       when('/', {

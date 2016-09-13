@@ -1,4 +1,4 @@
-favoritesApp.config(['$routeProvider',
+angular.module('portfolioApp').config(['$routeProvider',
   function($routeProvider) {
     $routeProvider.
       when('/displays', {

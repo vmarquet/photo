@@ -148,7 +148,7 @@ analyse_folder root, "", 0
 
 # we generate the AngularJS routing code
 File.open "js/routes.js", "w" do |f_out|
-  f_out.write "favoritesApp.config(['$routeProvider',\n"
+  f_out.write "angular.module('portfolioApp').config(['$routeProvider',\n"
   f_out.write "  function($routeProvider) {\n"
   f_out.write "    $routeProvider.\n"
   
