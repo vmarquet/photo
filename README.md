@@ -12,6 +12,5 @@ Made with:
 * design
     * [Bootstrap 3](http://getbootstrap.com/)
         * [simple-sidebar plugin](http://startbootstrap.com/template-overviews/simple-sidebar/)
-* storage: images are stored in Google Drive, and URLs for the images are retrieved with the API (a.k.a. the poor's man CMS)
 
 © Vincent Marquet
