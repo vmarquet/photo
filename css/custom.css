@@ -1,31 +1,15 @@
-@font-face {
-  font-family: "Roboto Condensed";
-  font-style: normal;
-  font-weight: 400;
-  src: local("Roboto Condensed"), local("RobotoCondensed-Regular"), url("https://fonts.gstatic.com/s/robotocondensed/v13/Zd2E9abXLFGSr9G3YK2MsH4vxAoi6d67T_UKWi0EoHQ.woff2") format("woff2");
-  unicode-range: U+0-FF, U+131, U+152-153, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
-
-.sidebar-nav {
-  font-family: "Roboto Condensed", sans-serif;
-  text-transform: uppercase;
-  font-size: 11px;
-  letter-spacing: 2px;
-}
-
-.sidebar-brand {
-  font-weight: bold;
-}
-
-.sidebar-nav > .sidebar-brand a {
-  color: white;
-  font-size: 20px;
-}
-
-#menu-toggle-div {
-  text-align: right;
-}
-
 body {
+  margin-top: 70px;
   font-size: 20px;
+  text-align: center;
+}
+
+#disqus_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#disqus_thread {
+  width: 500px;
 }
