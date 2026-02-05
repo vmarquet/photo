@@ -4,6 +4,10 @@ body {
   text-align: center;
 }
 
+.ps-gallery {
+  text-align: start;
+}
+
 #disqus_container {
   display: flex;
   align-items: center;
